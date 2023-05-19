@@ -1,0 +1,23 @@
+#Triángulo prueba
+def triangulo():
+    i = "*"
+    espacio = " "
+    for i in range(5):
+        if i == 1:
+            print("  " + "*")
+        elif i == 2:
+            i= " " + "*" * (i+i-1)
+            print(i)
+        else:
+            i= "*" * (i+i-1)
+            print(i)
+
+a = triangulo()
+print(a)
+
+#TRIANGULO
+
+num = 10
+
+for i in range(num):
+    print(" " * (num-i-1) + "*" *(2*i+1))
